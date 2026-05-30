@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&family=Orbitron:wght@500;700;900&display=swap');
+:root { --bg:#04050a; --card:#0a0c13; --gold:#d4a017; --text:#f0e6c8; --success:#00c896; }
+body { background: var(--bg); color: var(--text); font-family: 'Tajawal', sans-serif; padding: 20px; }
+.card { background: var(--card); border: 1px solid var(--gold); border-radius: 15px; padding: 20px; margin-bottom: 20px; }
+.task-item { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #333; }
+.done { color: var(--success); text-decoration: line-through; }
+button { background: var(--gold); border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; color: black; font-weight: bold; }
